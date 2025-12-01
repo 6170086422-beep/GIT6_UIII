@@ -1,0 +1,267 @@
+---
+title: "Analisis de imagenes de las hojas de naranjas"
+author: "G6_UIII"
+format: html
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# **Integrantes G6**
+
+1.  Huaman Rimarachin Milver
+
+2.  Rivera Jimenez Yanet
+
+3.  Tuesta Chichipe Aracely
+
+4.  Silva castro Luis
+
+5.  Visalot Chapa Jener
+
+# **Introducción**
+
+La anotación de imágenes es muy importante en tareas de visión por
+computadora, como la detección de objetos y clasificación de imágenes.
+LabelStudio, lo cual una plataforma de código abierto, facilita la
+anotación de datos, permitiendo etiquetar imágenes para entrenar modelos
+de aprendizaje automático (Sambetbayeva et al., 2025). Mediante el
+desarrollo de presente trabajo se explora la integración de LabelStudio
+con RStudio para analizar la anotación de imágenes.
+
+# **Objetivo**
+
+-   Realizar las anotaciones de las 25 imagenes trabajadas con su
+    respectiva area, peciolo y escala para entrenar el programa de label
+    studio.
+
+# **Estructura para realizar la anotacion de imagenes**
+
+1.  Iniciar LabelStudio
+
+2.  Crear un nuevo proyecto
+
+3.  Subir las imágenes
+
+4.  Definir tipos de anotaciones
+
+5.  Realizar las anotaciones correspondientes
+
+6.  Guardar las anotaciones
+
+7.  Repetir para todas las 25 imágenes trabajadas
+
+# **Desarrollo del trabajo**
+
+## **Iniciar LabelStudio**
+
+### **Instalación y configuración inicial de Label Studio**
+
+-   Si aún no lo tienes instalado, puedes hacerlo desde el sitio oficial de Label Studio o usando el siguiente comando en la terminal
+
+![](images/Imagen%20de%20WhatsApp%202025-11-30%20a%20las%2018.59.57_08cf2609.jpg)
+
+-   Inicia LabelStudio
+
+![](images/labelstudio.jpg)
+
+## **Crear el nuevo proyecto**
+
+-   En la interfaz de LabelStudio, haz clic en "Create Project".
+
+![](images/crearprojectrecien.jpg)
+
+-   Ingresa un nombre para tu proyecto y una breve descripción.
+
+![](images/nombreproyect.jpg)
+
+-   Elige el tipo de tarea (por ejemplo, Imagen si vas a trabajar con
+    imágenes).
+
+## **Subir las imagenes**
+
+-   Dentro del proyecto recién creado, haz clic en "Import" y selecciona "Upload Files".
+
+-   LabelStudio te permitirá subir múltiples imágenes a la vez.
+
+-   También puedes integrarlo con Google Drive o importar desde otras
+    fuentes.
+
+## **Configurar el esquema de anotaciones**
+
+-   En Label Studio, puedes definir qué tipo de anotaciones deseas
+    realizar en las imágenes. Esto se configura en el paso de labeling
+    interface.
+
+-   Haz clic en "Labeling Setup" y selecciona el tipo de anotación. Aquí puedes elegir:
+
+![](images/segementaciónpoligono.jpg)
+
+-   Polígonos (Polygons): Para áreas irregulares.
+
+-   Selecciona y configura las opciones que mejor se adapten a tu caso.
+    Realizar las anotaciones correspondientes
+
+## **Comenzar la anotación**
+
+Después de configurar la interfaz de anotación, haz clic en "Label"
+dentro de tu proyecto.
+
+-   Se abrirán las imágenes cargadas, y podrás comenzar a anotar.
+
+![](images/Cargadas.jpg)
+
+-   Dibuja el polígono alrededor de la hoja
+
+- Haz clic para establecer los puntos de un polígono alrededor del objeto
+que deseas segmentar. Cada clic creará un vértice del polígono.
+
+![](images/cierre%20poloi.jpg)
+
+-   Continúa haciendo clic en el contorno del objeto hasta que lo rodees completamente.
+
+-   Para cerrar el polígono, haz clic en el primer punto donde
+    comenzaste.
+
+## **Asignar una etiqueta**
+
+- Después de cerrar el polígono, se te pedirá que asocies el polígono con
+una etiqueta.
+
+-   Por ejemplo, en nuestro caso sera hoja, peciolo y escala
+
+![](images/H006-01.jpg)
+
+-   Selecciona la etiqueta adecuada de la lista de etiquetas
+    predefinidas o crea una nueva etiqueta si es necesario
+
+## **Guardar las anotaciones**
+
+-   Una vez hayas etiquetado el objeto o área de interés, LabelStudio te permitirá guardar la anotación.
+
+-   Puedes hacer esto en tiempo real o al finalizar varias anotaciones.
+
+## **Repetir para todas las imágenes**
+
+Después de haber anotado una imagen, puedes proceder a la siguiente
+imagen y repetir el proceso de anotación.
+
+## **Anotación de las 25 hojas de naranja**
+
+- ### **H001**
+
+![](images/H001.jpg)
+
+- ### **H002**
+
+![](images/H002.jpg)
+
+- ### **H003**
+
+![](images/H003.jpg)
+
+- ### **H004**
+
+![](images/H004.jpg)
+
+- ### **H005**
+
+![](images/H005.jpg)
+
+- ### **H006**
+
+![](images/H006.jpg)
+
+- ### **H007**
+
+![](images/H007.jpg)
+
+- ### **H008**
+
+![](images/H008.jpg)
+
+-### **H009**
+
+![](images/H009.jpg)
+
+- ### **H010**
+
+![](images/H010.jpg)
+
+- ### **H011**
+
+![](images/H011.jpg)
+
+- ### **H012**
+
+![](images/H012.jpg)
+
+- ### **H013**
+
+![](images/H013.jpg)
+
+- ### **H014**
+
+![](images/H014.jpg)
+
+- ### **H015**
+
+![](images/H015.jpg)
+
+- ### **H016**
+
+![](images/H016.jpg)
+
+- ### **H017**
+
+![](images/H017.jpg)
+
+- ### **H018**
+
+![](images/H018.jpg)
+
+- ### **H019**
+
+![](images/H019.jpg)
+
+- ### **H020**
+
+![](images/H020.jpg)
+
+- ### **H021**
+
+![](images/H021.jpg)
+
+- ### **H022**
+
+![](images/H022.jpg)
+
+- ### **H023**
+
+![](images/H023.jpg)
+
+- ### **H024**
+
+![](images/H024.jpg)
+
+- ### **H025**
+
+![](images/H025.jpg)
+
+# **Conclusión**
+
+En conclusión la anotación de las 25 imágenes, identificando de manera
+precisa el área foliar, el peciolo y la escala, permitió generar un
+conjunto de datos estructurado y de calidad. Este proceso aseguró la
+correcta delimitación de las características relevantes necesarias para
+el entrenamiento del programa, garantizando que el modelo pueda aprender
+patrones confiables y mejorar su capacidad de reconocimiento y análisis
+en futuras aplicacione
+
+# **Referencias bibliográficas**
+
+Sambetbayeva, M., Nekessova, A., Yerimbetova, A., Bayangali, A.,
+Kaldarova, M., Telman, D. y Smailov, N. (2025). Un modelo de anotación
+multinivel para la detección de noticias falsas: Implementación de
+corpus kazajo-ruso mediante Label Studio. Big Data and Cognitive
+Computing , 9 (8), 215. https://doi.org/10.3390/bdcc9080215
